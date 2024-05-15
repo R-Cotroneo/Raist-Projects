@@ -1,6 +1,6 @@
 html {
     background-color: green;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   ul {
@@ -11,4 +11,10 @@ html {
   
   li {
     margin-left: 20px;
+  }
+
+  ol {
+    background: rgb(45, 195, 245);
+    padding: 15px;
+    border: 2px solid white;
   }
