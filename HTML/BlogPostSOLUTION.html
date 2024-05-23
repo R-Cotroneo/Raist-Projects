@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1em;
+        }
+        .main-content {
+            flex: 3;
+            padding: 1em;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 1em;
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Blog Post Title</h2>
+            <p><em>by John Doe | May 19, 2024</em></p>
+            <img src="https://via.placeholder.com/800x400" alt="Featured Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ligula ac diam volutpat, eu tincidunt sapien faucibus. Vivamus fermentum lacus ac justo fermentum, ut eleifend odio viverra.</p>
+            <p>Quisque nec purus eget odio eleifend ullamcorper. Aenean consectetur, eros ac feugiat vestibulum, erat ex blandit eros, sit amet suscipit sem nisl et magna.</p>
+            <p>Mauris convallis lorem sit amet erat tincidunt, a cursus elit blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Post Title 1</a></li>
+                <li><a href="#">Post Title 2</a></li>
+                <li><a href="#">Post Title 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+        <p>
+            Follow me on
+            <a href="#" style="color: white;">Twitter</a>,
+            <a href="#" style="color: white;">Facebook</a>,
+            <a href="#" style="color: white;">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

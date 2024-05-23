@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="author" content="Raist Cotroneo" />
+        <meta
+            name="description"
+            content="This is an HTML page that simulates a responsive
+                    blog post" />
+        <link rel="icon" href="Sector_Overload.png" />
+        <title>The Collapse</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #333;
+                color: white;
+                padding: 1em 0;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                margin: 0 1em;
+                text-decoration: none;
+            }
+            container {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 1em;
+            }
+            content {
+                flex: 3;
+                padding: 1em;
+            }
+            sidebar {
+                flex: 1;
+                padding: 1em;
+                background-color: #f4f4f4;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 1em 0;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            @media (max-width: 768px) {
+                container {
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>The Collapse</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <container>
+            <content>
+                <h2>What is it?</h2>
+                <h4>By, Alfred Gold; May 5th, 2024</h4>
+                <img 
+                    src="378b7e6fa5f808ac942c593eccd194a4.jpg"
+                    height="250px"
+                    width="250px" />
+                <p>
+                    The Collapse refers to a global nuclear catastrophe which occurred in September 2018, 
+                    during the events of Far Cry 5. The Collapse was the result of escalating tensions
+                    between major world superpowers, which ultimately led to nuclear strikes on the
+                    United States. In the following 24 hours, the world entered a state of total nuclear war,
+                    resulting in the destruction of much of the planet and human civilization.
+                </p>
+                <p>
+                    Following the Collapse, humanity and the environment slowly began a recovery, including
+                    a "super bloom" in which plants grew in renewed abundance. However, the remnants of the
+                    United States came under the threat of a national network of raiders known as the Highwaymen.
+                    The events of Far Cry New Dawn take place 17 years after the Collapse, in the remnants of
+                    Hope County, Montana.
+                </p>
+                <p>         
+                    The Collapse was prophesied by Joseph Seed, who used it as justification to form the Project at
+                    Eden's Gate and ultimately take over Hope County.
+                </p>
+                <a href="#">Read More</a>
+            </content>
+            <sidebar>
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">When Will it Happen?</a></li>
+                    <li><a href="#">Joseph Seed</a></li>
+                    <li><a href="#">John Seed Falls!</a></li>
+                </ul>
+            </sidebar>
+        </container>
+        <footer>
+            <p>&copy; 2024 The Collapse</p>
+            <p>
+                Follow me on
+                <a href="#" style="color: white">Twitter</a>
+                <a href="#" style="color: white">Facebook</a>
+                <a href="#" style="color: white">YouTube</a>
+            </p>
+        </footer>
+    </body>
+</html>
