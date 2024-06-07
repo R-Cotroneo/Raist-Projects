@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Monsterrat";
+    src: url("../Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype")
+}
+
+html {
+    background-color: cadetblue;
+    font-family: "Monsterrat", sans-serif;
+}
+
+.header {
+    background-color: rgb(102, 10, 10);
+    padding: 1em;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header h2 {
+    color: lightblue;
+}
