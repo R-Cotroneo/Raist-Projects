@@ -3,9 +3,11 @@
     src: url("../Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype")
 }
 
-html {
+html, body {
     background-color: cadetblue;
     font-family: "Monsterrat", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -20,4 +22,23 @@ html {
 
 .header h2 {
     color: lightblue;
+}
+
+.primary {
+    padding: 1em;
+    display: flex;
+    gap: 40px;
+}
+
+.profilePhoto {
+    padding: 20px;
+    flex: 1;
+    background-color: red;
+}
+
+.box {
+    padding-top: 100px;
+    background-color: beige;
+    padding-left: 25px;
+    padding-right: 25px;
 }
